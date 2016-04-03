@@ -1,3 +1,8 @@
+var divCopy = document.getElementById('copyText'),
+  nmbrBox = document.getElementById('numbers'),
+  txtBox = document.getElementById('textBox'),
+  lineHeight = 20;
+
 /*This function copies the text from the textarea to a div 
   so we can check the height and then get the number of lines 
   from that information*/
