@@ -34,3 +34,17 @@ textarea, .rows{
   height: 100%;
   line-height: 20px;
   max-height: 600px;
+  overflow: hidden;
+  padding: 0.16em 0em;
+  text-align: right;
+  width: 48px;
+  vertical-align: top;
+}
+
+#copyText{
+  display:inline-block;
+  font-family: sans-serif;
+  font-size: 1.8em;
+  line-height: 20px;
+  visibility: hidden;
+}
